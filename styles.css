@@ -1,0 +1,168 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img,
+svg,
+embed,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  background: #121212;
+  color: #fbfbfb;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a,
+a:visited,
+a:active {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.title {
+  line-height: 1em;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.imprint {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.page {
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+a.btn-download,
+a.btn-download:visited,
+a.btn-download:active {
+  padding: 0.5em 1em 0.5em 2.5em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' fill='%231b1b1b' viewBox='0 -960 960 960'%3E%3Cpath d='M480-315.33 284.67-510.67l47.33-48L446.67-444v-356h66.66v356L628-558.67l47.33 48L480-315.33ZM226.67-160q-27 0-46.84-19.83Q160-199.67 160-226.67V-362h66.67v135.33h506.66V-362H800v135.33q0 27-19.83 46.84Q760.33-160 733.33-160H226.67Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 0.5em 50%;
+  color: #1b1b1b;
+  background-color: #fbfbfb;
+  border-radius: 0.25em;
+  margin: 0 1em 1em 0;
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.1s;
+}
+
+a.btn-download:hover {
+  transform: rotateZ(-1deg);
+}
+
+a.btn-download:active {
+  transform: translate(0, 0.1em);
+}
+
+.mv {
+  margin: 1.5em 0;
+}
+
+.mv-3 {
+  margin: 3em 0;
+}
+
+#mlb2-22631080.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
+  padding: 0;
+}
